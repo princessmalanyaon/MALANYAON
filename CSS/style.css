@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 a {
-  text-decoration: palevioletred;
+  text-decoration: rgb(226, 37, 154);
 }
 .hero {
   width: 100%;
@@ -22,7 +22,7 @@ nav {
   font-size: 20px;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 100px;
+  padding: 5px 100px;
 }
 .logo {
   max-width:  10%;
@@ -31,44 +31,30 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  padding: 10px 50px;
+  padding: 10px 80px;
 }
 nav ul li a {
-  color: #1d1d24;
+  color: #0b0b11;
   position: relative;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 nav ul li a:hover {
-  color: #fd4766;
+  color: #e96377;
 }
 nav ul li a:after {
   content: "";
   position: absolute;
   left: 0;
   width: 0;
-  height: 3px;
+  height: 10px;
   background: #fd4766;
   transition: 0.3s;
   bottom: 0;
 }
 nav ul li a:hover:after {
-  width: 100%;
+  width: 10%;
 }
 
-.btn {
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 16px 40px;
-  border-radius: 500px;
-  display: inline-block;
-  font-weight: 500;
-  transition: all 0.4s ease-in-out;
-  background-size: 152% 100%;
-  background: #fd4766;
-  border: 2px solid #fd4766;
-}
 .btn:hover {
   background: transparent;
   border-color: #fd4766;
@@ -76,25 +62,10 @@ nav ul li a:hover:after {
 }
 .content {
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 10%;
 }
-.content .title {
-  color: #0a0a0a;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  display: inline-block;
-  margin-bottom: 20px;
-  background: linear-gradient(
-    120deg,
-    #1c99fe 20.69%,
-    #7644ff 50.19%,
-    #f13e5c 79.69%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .content h1 {
   color: #0f0d0f;
   font-size: 45px;
@@ -117,12 +88,6 @@ nav ul li a:hover:after {
 }
 .content h3 span {
   color: #fd4766;
-}
-.content p {
-  width: 55%;
-  color: #202020;
-  margin-top: 25px;
-  margin-bottom: 30px;
 }
 
 img {

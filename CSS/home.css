@@ -31,7 +31,7 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  padding: 10px 80px;
+  padding: 10px 50px;
 }
 nav ul li a {
   color: #0b0b11;
@@ -93,10 +93,11 @@ nav ul li a:hover:after {
 img {
     display: flex;
     float: right;
-    width: 500%;
-    height: 100vh;
+    margin-right: 200px;
+    width: 700%;
+    height: 200vh;
     border-radius: 600%;
-    top: 10%;
+    top: 20%;
     right: 40%;
     image: url ('/IMG/homeprofile.png') ;
 }

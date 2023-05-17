@@ -2,43 +2,36 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: #333;
     display: flex;
     justify-content: center;
     align-items: center;   
     font-family: "Times New Roman", arial ;
-    background-color: #f1f1f1; 
-}
- a {
-    text-decoration: rgb(226, 37, 154);
-  }
-  .hero {
     width: 100%;
     height: 100vh;
     background: url('/IMG/bgg.jpg') ;
   
   }
-  
+
   nav {
     display: flex;
     font-size: 20px;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 100px;
+    padding:10px 100px;
   }
   .logo {
-    max-width:  10%;
-    max-height: 200px;
+    max-width:  11%;
+    max-height: 207px;
   }
   nav ul li {
     list-style: none;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 80px;
   }
   nav ul li a {
     color: #0b0b11;
     position: relative;
-    padding: 10px 0;
+    padding: 20px 0;
   }
   nav ul li a:hover {
     color: #e96377;
@@ -55,6 +48,12 @@ body {
   }
   nav ul li a:hover:after {
     width: 10%;
+  }
+  
+  .btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
   }
 
 .container {
@@ -75,21 +74,21 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #f00;
+    background: rgb(3, 90, 250);
     transition: 0.7s;
     z-index: 1;
 }
 
 .container .card:nth-child(1) .icon {
-    background: #e07768;
-}
-
-.container .card:nth-child(2) .icon {
     background: #6eadd4;
 }
 
+.container .card:nth-child(2) .icon {
+    background: #e07768;
+}
+
 .container .card:nth-child(3) .icon {
-    background: #4aada9;
+    background: #eef126;
 }
 
 
@@ -100,7 +99,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 80px;
     transition: 0.7s;
-    color: #fff;
+    color: #ffffff;
 }
 
 i {
@@ -130,7 +129,7 @@ i {
 }
 
 .container .card:hover .face.face1{
-    background: #ff0057;
+    background: #0059ff;
     transform: translateY(0px);
 }
 

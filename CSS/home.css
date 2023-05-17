@@ -22,7 +22,7 @@ nav {
   font-size: 20px;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 100px;
+  padding:10px 80px;
 }
 .logo {
   max-width:  10%;
@@ -31,7 +31,7 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  padding: 10px 50px;
+  padding: 10px 80px;
 }
 nav ul li a {
   color: #0b0b11;
@@ -91,14 +91,15 @@ nav ul li a:hover:after {
 }
 
 img {
-    display: flex;
-    float: right;
-    margin-right: 200px;
-    width: 700%;
-    height: 200vh;
-    border-radius: 600%;
-    top: 20%;
-    right: 40%;
+
+  display: flex;
+  float: right;
+  max-width: 500%;
+  max-height: 500%;
+  margin-right: 200px;
+ border-radius: 100%;
+    top: 50%;
+    right: 70%;
     image: url ('/IMG/homeprofile.png') ;
 }
 .title{

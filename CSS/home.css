@@ -28,6 +28,23 @@ nav {
   max-width:  10%;
   max-height: 200px;
 }
+.logo2 {
+  max-width:  570%;
+  max-height: 570px;
+  position: absolute;
+  top: 9%;
+  right: 0%;
+}
+img {
+
+  display: flex;
+  float: right;
+  max-width: 500%;
+  max-height: 500%;
+  margin-right: 200px;
+ border-radius: 100%;
+    image: url ('/IMG/homeprofile.png') ;
+}
 nav ul li {
   list-style: none;
   display: inline-block;
@@ -84,24 +101,12 @@ nav ul li a:hover:after {
   font-weight: 500;
   line-height: 10px;
   text-transform: inherit;
-  width: 150%;
+  width: 100%;
 }
 .content h3 span {
   color: #fd4766;
 }
 
-img {
-
-  display: flex;
-  float: right;
-  max-width: 500%;
-  max-height: 500%;
-  margin-right: 200px;
- border-radius: 100%;
-    top: 50%;
-    right: 70%;
-    image: url ('/IMG/homeprofile.png') ;
-}
 .title{
   display: flex;
   font-size: 40px;
